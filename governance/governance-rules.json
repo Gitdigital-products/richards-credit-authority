@@ -1,0 +1,20 @@
+{
+  "approval_thresholds": {
+    "loan_issue": "owner",
+    "loan_modify": "owner",
+    "loan_disburse": "owner"
+  },
+  "milestone_checks": {
+    "require_kyc": true,
+    "require_tax_docs": true,
+    "require_ledger_sync": true
+  },
+  "emergency_stop": {
+    "enabled": true,
+    "trigger_conditions": [
+      "identity_mismatch",
+      "ledger_out_of_sync",
+      "tax_docs_missing"
+    ]
+  }
+}
