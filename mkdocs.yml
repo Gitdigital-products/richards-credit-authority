@@ -1,0 +1,18 @@
+site_name: Richard's Credit Authority
+site_description: Personal credit authority and governance layer for Richard Duane Kindler.
+repo_url: https://github.com/RickCreator87/richard-credit-authority
+
+theme:
+  name: material
+
+nav:
+  - Overview: docs/overview.md
+  - Governance: docs/governance.md
+  - Tax Separation: docs/tax-separation.md
+  - API & Integration: docs/api.md
+  - Webhooks: docs/webhooks.md
+  - Workflows:
+      - Issue Credit: docs/workflows/issue_credit.md
+      - Approve Loan: docs/workflows/approve_loan.md
+      - Disburse Funds: docs/workflows/disburse_funds.md
+      - Sync Ledger: docs/workflows/sync_ledger.md
